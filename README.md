@@ -110,3 +110,6 @@ method = "get" - get sends data and includes it in the url(insecure)
  
  how to acces variables from forms
  $_GET["var_name"] / $_POST["var_name"]
+ 
+trim()
+stripslashes()
