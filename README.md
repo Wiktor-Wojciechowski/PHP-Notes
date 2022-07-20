@@ -32,3 +32,11 @@ function myTest() {
 myTest();
 echo $y; // outputs 15
 ?> 
+
+
+$txt1 = "hello world"
+echo "<h2>" . $txt1 . "</h2>"; // prints out the h2 heading with set text
+
+print similar to echo, differences:
+echo is minimally faster, takes multiple arguments and does not return a value
+print can take one argument and returns 1
