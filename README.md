@@ -104,3 +104,9 @@ echo "<br>";
 
 $x = "Hello";
 var_dump(is_numeric($x));
+
+<form action="site.php" method="post"> - post sends data without putting it in the url (secure)
+method = "get" - get sends data and includes it in the url(insecure)
+ 
+ how to acces variables from forms
+ $_GET["var_name"] / $_POST["var_name"]
