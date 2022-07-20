@@ -66,4 +66,4 @@ $myCar = new Car("red", "Toyota");
 echo $myCar -> message();
 ?> 
 
-
+The PHP strlen() function returns the length of a string.
