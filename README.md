@@ -67,3 +67,40 @@ echo $myCar -> message();
 ?> 
 
 The PHP strlen() function returns the length of a string.
+str_word_count()
+strrev()
+The PHP strpos() function searches for a specific text within a string. If a match is found, the function returns the character position of the first match. If no match is found, it will return FALSE.
+echo str_replace("world", "Dolly", "Hello world!"); // outputs Hello Dolly!
+
+
+is_int()
+is_integer() - alias of is_int()
+is_long() - alias of is_int()
+
+is_float()
+is_double() - alias of is_float()
+
+
+is_finite()
+is_infinite()
+
+is_nan()
+
+/ Check if the variable is numeric   
+$x = 5985;
+var_dump(is_numeric($x));
+
+echo "<br>";
+
+$x = "5985";
+var_dump(is_numeric($x));
+
+echo "<br>";
+
+$x = "59.85" + 100;
+var_dump(is_numeric($x));
+
+echo "<br>";
+
+$x = "Hello";
+var_dump(is_numeric($x));
